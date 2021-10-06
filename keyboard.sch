@@ -381,4 +381,76 @@ Wire Wire Line
 	3200 3400 2950 3400
 Wire Wire Line
 	3550 3300 2950 3300
+$Comp
+L random-keyboard-parts:Molex-0548190589 USB?
+U 1 1 61618AFA
+P 1000 3550
+F 0 "USB?" V 1537 3517 60  0000 C CNN
+F 1 "Molex-0548190589" V 1431 3517 60  0000 C CNN
+F 2 "" H 1000 3550 60  0001 C CNN
+F 3 "" H 1000 3550 60  0001 C CNN
+	1    1000 3550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2950 3300 0    50   Input ~ 0
+D+
+Text GLabel 2950 3400 0    50   Input ~ 0
+D-
+Text GLabel 1300 3450 2    50   Input ~ 0
+D-
+Text GLabel 1300 3550 2    50   Input ~ 0
+D+
+$Comp
+L power:GND #PWR?
+U 1 1 6161D0AE
+P 1350 3750
+F 0 "#PWR?" H 1350 3500 50  0001 C CNN
+F 1 "GND" H 1355 3577 50  0000 C CNN
+F 2 "" H 1350 3750 50  0001 C CNN
+F 3 "" H 1350 3750 50  0001 C CNN
+	1    1350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3750 1350 3750
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 6161E704
+P 1750 3350
+F 0 "F?" V 1545 3350 50  0000 C CNN
+F 1 "Polyfuse_Small" V 1636 3350 50  0000 C CNN
+F 2 "" H 1800 3150 50  0001 L CNN
+F 3 "~" H 1750 3350 50  0001 C CNN
+	1    1750 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6161F616
+P 2000 3350
+F 0 "#PWR?" H 2000 3200 50  0001 C CNN
+F 1 "+5V" H 2015 3523 50  0000 C CNN
+F 2 "" H 2000 3350 50  0001 C CNN
+F 3 "" H 2000 3350 50  0001 C CNN
+	1    2000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6162023C
+P 1450 3350
+F 0 "#PWR?" H 1450 3200 50  0001 C CNN
+F 1 "VCC" H 1467 3523 50  0000 C CNN
+F 2 "" H 1450 3350 50  0001 C CNN
+F 3 "" H 1450 3350 50  0001 C CNN
+	1    1450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3350 1450 3350
+Wire Wire Line
+	1850 3350 2000 3350
+Connection ~ 1450 3350
+Wire Wire Line
+	1450 3350 1650 3350
 $EndSCHEMATC
