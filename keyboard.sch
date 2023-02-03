@@ -3539,4 +3539,50 @@ Wire Wire Line
 Wire Wire Line
 	20850 5700 20800 5700
 Connection ~ 20850 4200
+Text GLabel 5250 2300 2    50   Input ~ 0
+COL0
+Text GLabel 5250 2400 2    50   Input ~ 0
+COL1
+Text GLabel 5250 2500 2    50   Input ~ 0
+COL2
+Text GLabel 5250 2600 2    50   Input ~ 0
+COL3
+Text GLabel 5250 2700 2    50   Input ~ 0
+COL4
+Text GLabel 5250 2800 2    50   Input ~ 0
+COL5
+Text GLabel 5250 2900 2    50   Input ~ 0
+COL6
+Text GLabel 5250 3000 2    50   Input ~ 0
+COL7
+Text GLabel 5250 3200 2    50   Input ~ 0
+COL8
+Text GLabel 5250 3300 2    50   Input ~ 0
+COL9
+Text GLabel 5250 3500 2    50   Input ~ 0
+COL10
+Text GLabel 5250 3600 2    50   Input ~ 0
+COL11
+Text GLabel 5250 3700 2    50   Input ~ 0
+COL12
+Text GLabel 5250 3800 2    50   Input ~ 0
+COL13
+Text GLabel 5250 3900 2    50   Input ~ 0
+COL14
+Text GLabel 5250 4000 2    50   Input ~ 0
+COL15
+Text GLabel 5250 4100 2    50   Input ~ 0
+COL16
+Text GLabel 5250 4700 2    50   Input ~ 0
+ROW0
+Text GLabel 5250 4800 2    50   Input ~ 0
+ROW1
+Text GLabel 5250 4900 2    50   Input ~ 0
+ROW2
+Text GLabel 5250 5000 2    50   Input ~ 0
+ROW3
+Text GLabel 5250 5100 2    50   Input ~ 0
+ROW4
+Text GLabel 5250 5200 2    50   Input ~ 0
+ROW5
 $EndSCHEMATC
