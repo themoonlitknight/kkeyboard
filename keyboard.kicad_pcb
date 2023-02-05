@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 588)
+    (drawings 589)
     (tracks 1427)
     (zones 0)
     (modules 192)
@@ -7951,6 +7951,9 @@
     )
   )
 
+  (gr_text theKing (at 1.5875 100.0125) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.15)))
+  )
   (gr_line (start -9.525 102.362) (end -9.525 -7.112) (layer Edge.Cuts) (width 0.05) (tstamp 616AB541))
   (gr_line (start 321.437 104.775) (end -7.112 104.775) (layer Edge.Cuts) (width 0.05) (tstamp 616AB538))
   (gr_line (start 323.85 -7.112) (end 323.85 102.362) (layer Edge.Cuts) (width 0.05) (tstamp 616AB52C))
